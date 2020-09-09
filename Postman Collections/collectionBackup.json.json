@@ -53,9 +53,11 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{url}}/get?isGood=true&isBad=false",
+          "raw": "https://postman-echo.com/get?isGood=true&isBad=false",
+          "protocol": "https",
           "host": [
-            "{{url}}"
+            "postman-echo",
+            "com"
           ],
           "path": [
             "get"
